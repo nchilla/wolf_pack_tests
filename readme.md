@@ -1,3 +1,5 @@
+### Notes on sample data
+
 The original (`des-moines-register.json`) file size is `56.4MB`.
 
 After removing the superfluous nesting, the cleaned-up JSON (`des-moines-register-clean.json`) comes out to `29.5MB`, or *52.3% of its original size*.

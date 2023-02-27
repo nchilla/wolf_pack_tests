@@ -1,12 +1,12 @@
 const fs = require('fs');
 
-cleanFile('des-moines-register-clean.json',false,false);
-cleanFile('des-moines-register-abbrev.json',true,false);
-cleanFile('des-moines-register-trim.json',true,true);
+cleanFile('sample-data/des-moines-register-clean.json',false,false);
+cleanFile('sample-data/des-moines-register-abbrev.json',true,false);
+cleanFile('sample-data/des-moines-register-trim.json',true,true);
 
 
 async function testRead(){
-    let rawdata = await fs.readFileSync('des-moines-register.json');
+    let rawdata = await fs.readFileSync('sample-data/des-moines-register.json');
     let parsed = await JSON.parse(rawdata);
     return parsed["{'Des Moines Register'}"];
 }
