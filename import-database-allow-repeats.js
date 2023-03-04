@@ -11,10 +11,12 @@ const db_root='/Volumes/chilla/nico/db/';
 const data_root='/Volumes/chilla/nico/cleaned/';
 
 //creates or locates database file
-const db = new Database(db_root+'chicago-allow-repeats.db');
+let name='chicago-defender'
+const db = new Database(db_root+name+'.db');
+// db.pragma('synchronous=OFF');
 
 //starts processing chicago defender
-importPub('chicago-defender');
+importPub(name);
 
 //processes one publication, using its name slug
 async function importPub(name){
@@ -51,6 +53,14 @@ async function importPub(name){
             console.log(date_safe,'========================')
             
             //for each n value from 1 to 5
+            const insertGrams=db.transaction((statement,grams) => {
+                for (const [gram, count] of Object.entries(grams)) statement.run({
+                    gram:gram.replace(/'/g,"''"),
+                    count:count
+                })                
+            });
+
+
             for(let n=1;n<6;n++){
                 //add column for this month to corresponding n value table
                 let col_exists=db.prepare(`SELECT * FROM ${name_safe}_n${n}`).get();
@@ -65,20 +75,19 @@ async function importPub(name){
                 let grams=data.value[n];
                 console.log('processing n='+n+'...');
 
-                //loop through all the ngrams
-                for(const [gram, count] of Object.entries(grams)){
-                    let gram_safe=gram.replace(/'/g,"''");
-                    
-                    //insert an entry for each gram,
-                    //and enter its count in the appropriate month column
-                    db.prepare(`
-                        INSERT INTO ${name_safe}_n${n} (gram, m${date_safe})
-                        VALUES ('${gram_safe}',${count})
-                    `).run();
-                }
-                    
-   
+                //defines an SQL insert statement to add a new row corresponding to a single ngram in a single month
+                //(it's faster to insert them this way and then consolidate the rows in SQL)
+                let statement=db.prepare(`
+                    INSERT INTO ${name_safe}_n${n} (gram, m${date_safe})
+                    VALUES (@gram,@count)
+                `);
+
+                console.log('new transaction...');
+                insertGrams(statement,grams);
+                console.log('transaction complete');
             }
+
+            
         }
     ]);
 
@@ -86,7 +95,6 @@ async function importPub(name){
         //logs performance
         let t1=performance.now();
         console.log(`finished in ${t1-t0}ms`);
-        //closes database
         db.close();
       }
     );
