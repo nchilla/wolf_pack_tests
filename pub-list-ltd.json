@@ -1,0 +1,8 @@
+{
+    "publications":[
+        {"name":"The Arizona Republic","key":"arizona_republic","types":["print"]},
+        {"name":"The Arkansas Democrat Gazette","key":"arkansas_democrat_gazette","types":["print"]},
+        {"name":"CBS","key":"cbs","types":["broadcast"]},
+        {"name":"NBC","key":"nbc","types":["broadcast"]}
+    ]
+}

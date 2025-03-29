@@ -1,0 +1,560 @@
+[
+    {
+        "name": "ABC",
+        "key": "abc",
+        "id": 1,
+        "type": "publication",
+        "tags": [
+            "television"
+        ]
+    },
+    {
+        "name": "The Arizona Republic",
+        "key": "arizona_republic",
+        "id": 2,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Arkansas Democrat Gazette",
+        "key": "arkansas_democrat_gazette",
+        "id": 3,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Atlanta Journal Constitution",
+        "key": "atlanta_journal_constitution",
+        "id": 4,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Baltimore Afro-American",
+        "key": "baltimore_afro_american",
+        "id": 5,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Baltimore Sun",
+        "key": "baltimore_sun",
+        "id": 6,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Boston Globe",
+        "key": "boston_globe",
+        "id": 7,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "CBS",
+        "key": "cbs",
+        "id": 8,
+        "type": "publication",
+        "tags": [
+            "television"
+        ]
+    },
+    {
+        "name": "The Charleston Gazette",
+        "key": "charleston_gazette",
+        "id": 9,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Charlotte Observer",
+        "key": "charlotte_observer",
+        "id": 10,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Chicago Defender",
+        "key": "chicago_defender",
+        "id": 11,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Chicago Sun Times",
+        "key": "chicago_sun_times",
+        "id": 12,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Chicago Tribune",
+        "key": "chicago_tribune",
+        "id": 13,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Christian Science Monitor",
+        "key": "christian_science_monitor",
+        "id": 14,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Cincinatti Enquirer",
+        "key": "cincinnati_enquirer",
+        "id": 15,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Cleveland Plain Dealer",
+        "key": "cleveland_plain_dealer",
+        "id": 16,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Columbus Dispatch",
+        "key": "columbus_dispatch",
+        "id": 17,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Dallas Morning News",
+        "key": "dallas_morning_news",
+        "id": 18,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Denver Post",
+        "key": "denver_post",
+        "id": 19,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Des Moines Register",
+        "key": "des_moines_register",
+        "id": 20,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Detroit Free Press",
+        "key": "detroit_free_press",
+        "id": 21,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Detroit News",
+        "key": "detroit_news",
+        "id": 22,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Fort Worth Star Telegram",
+        "key": "fort_worth_star_telegram",
+        "id": 23,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Houston Chronicle",
+        "key": "houston_chronicle",
+        "id": 24,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Indianapolis Star",
+        "key": "indianapolis_star",
+        "id": 25,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Kansas City Star",
+        "key": "kansas_city_star",
+        "id": 26,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Los Angeles Sentinel",
+        "key": "los_angeles_sentinel",
+        "id": 27,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Los Angeles Times",
+        "key": "los_angeles_times",
+        "id": 28,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Miami Herald",
+        "key": "miami_herald",
+        "id": 29,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Milwaukee Journal Sentinel",
+        "key": "milwaukee_journal_sentinel",
+        "id": 30,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Minneapolis Star Tribune",
+        "key": "minneapolis_star_tribune",
+        "id": 31,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "NBC",
+        "key": "nbc",
+        "id": 32,
+        "type": "publication",
+        "tags": [
+            "television"
+        ]
+    },
+    {
+        "name": "The Times-Picayune",
+        "key": "new_orleans_times_picayune",
+        "id": 33,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The New Pittsburgh Courier",
+        "key": "new_pittsburgh_courier",
+        "id": 34,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The New Republic",
+        "key": "new_republic",
+        "id": 35,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The New York Newsday",
+        "key": "new_york_newsday",
+        "id": 36,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The New York Post",
+        "key": "new_york_post",
+        "id": 37,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The New York Times",
+        "key": "new_york_times",
+        "id": 38,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Newark Star Ledger",
+        "key": "newark_star_ledger",
+        "id": 39,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "Newsweek",
+        "key": "newsweek",
+        "id": 40,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "NPR",
+        "key": "npr",
+        "id": 41,
+        "type": "publication",
+        "tags": [
+            "radio"
+        ]
+    },
+    {
+        "name": "The Omaha World Herald",
+        "key": "omaha_world_herald",
+        "id": 42,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Orange County Register",
+        "key": "orange_county_register",
+        "id": 43,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Oregonian",
+        "key": "oregonian",
+        "id": 44,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Orlando Sentinel",
+        "key": "orlando_sentinel",
+        "id": 45,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "PBS Newshour",
+        "key": "pbs_newshour",
+        "id": 46,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Philadelphia Daily News",
+        "key": "philadelphia_daily_news",
+        "id": 47,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Philadelphia Inquirer",
+        "key": "philadelphia_inquirer",
+        "id": 48,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Philadelphia Tribune",
+        "key": "philadelphia_tribune",
+        "id": 49,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Pittsburgh Post-Gazette",
+        "key": "pittsburgh_post_gazette",
+        "id": 50,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Sacramento Bee",
+        "key": "sacramento_bee",
+        "id": 51,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Salt Lake Tribune",
+        "key": "salt_lake_tribune",
+        "id": 52,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The San Antonio Express News",
+        "key": "san_antonio_express_news",
+        "id": 53,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The San Diego Union Tribune",
+        "key": "san_diego_union_tribune",
+        "id": 54,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The San Francisco Chronicle",
+        "key": "san_francisco_chronicle",
+        "id": 55,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The San Jose Mercury News",
+        "key": "san_jose_mercury_news",
+        "id": 56,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Seattle Post Intelligencer",
+        "key": "seattle_post_intelligencer",
+        "id": 57,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Seattle Times",
+        "key": "seattle_times",
+        "id": 58,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The St. Louis Post Dispatch",
+        "key": "st_louis_post_dispatch",
+        "id": 59,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The St. Petersburg Times",
+        "key": "st_petersburg_times",
+        "id": 60,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "The Associated Press",
+        "key": "associated_press",
+        "id": 61,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    },
+    {
+        "name": "USA Today",
+        "key": "usa_today",
+        "id": 62,
+        "type": "publication",
+        "tags": [
+            "print"
+        ]
+    }
+]
