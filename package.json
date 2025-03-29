@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "better-sqlite3": "^8.1.0",
-    "stream-json": "^1.7.5"
+    "stream-json": "^1.7.5",
+    "tar-fs": "^3.0.8"
   }
 }
